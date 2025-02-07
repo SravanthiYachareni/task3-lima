@@ -1,0 +1,13 @@
+import logo from './logo.svg';
+import './App.css';
+import Task3 from './components/Task3';
+
+function App() {
+  return (
+    <div className="App">
+    <Task3></Task3>
+    </div>
+  );
+}
+
+export default App;
