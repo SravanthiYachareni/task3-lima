@@ -7,36 +7,53 @@ padding-top: 100px;
   padding-top: 100px;
   border-collapse: collapse;
   width: 70%;
+  padding-bottom: 30%;
 }
 th,td {
   text-align: center;
   border: 1px solid black;
+}
+th:hover:nth even {
+  background-color: antiquewhite;
 }
 .form {
   border-radius: 5px;
   padding: 2rem;
   background-color: aliceblue;
   width: 25rem;
+  
 }
- /* .model-wrapper {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 150px;
-  padding-bottom: 100px;
- } */
+ 
  label {
   width: 100px;
   text-align: left;
   padding-right: 10px;
   
  }
- /* input  {
-  padding-right: 70px;
- } */
+ 
+  .model-wrapper {
+    padding-left: 400px;
+  }
+  label {
+    display:flex;
+    padding-bottom: 5px;
+  }
+  .form input {
+    display: flex;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  .table  input {
+    border: 0px;
+  }
+  .btn {
+    display: flex;
+   padding-top: 30px;
+    justify-content:center;
+  }
+  #button {
+    width: 30%;
+    border: 2px solid red;
+    background-color: violet;
+    border-radius: 5px;
+  }
